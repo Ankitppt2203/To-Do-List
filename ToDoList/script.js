@@ -21,7 +21,7 @@ function addTask() {
     saveTasks();
     taskInput.value = "";
 }
-
+//remove task function
 function removeTask(button) {
     button.parentElement.remove();
     saveTasks();
